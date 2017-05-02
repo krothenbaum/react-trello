@@ -24,11 +24,6 @@ export default class ListContainer extends React.Component {
 	}
 
 	render() {
-		// let lists =[];
-		// for(let i=0; i<this.props.listTitle.length; i++) {
-		// 	lists.push(<List cards={this.state.cardsArr} onAddInputChanged={this.onAddInputChanged} onAddSubmit={this.onAddSubmit} title={this.props.listTitle[i]} />);
-		// }
-		// return (<div className='list'>{lists}</div>);
 		return (<List cards={this.state.cardsArr} onAddInputChanged={this.onAddInputChanged} onAddSubmit={this.onAddSubmit} title={this.props.listTitle} />);
 	}
 }
